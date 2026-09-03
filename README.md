@@ -1,5 +1,5 @@
 # Zero-Trust-Hardened-Multi-Tier-Web-Application-Architecture-on-AWS
-## Overview-
+## Overview
 - To build a Multi-tier AWS architecture hardened with tiered security group and identity-based IAM access instead of network-only trust. This demonstration uses tools like IAM, AWS WAF, AWS SSM, AWS Secrets manager etc.
 - This is build to show the major ways of security in AWS
 ## Architecture
@@ -63,9 +63,6 @@
 
 - This is a free tier AWS account with a $200 credit and all free tier options.
 
-## All Tools Used
-
-- AWS- VPC, EC2, RDS, ALB, IAM, WAF, KMS, CloudWatch, CloudTrail, SSM 
 
 
 
