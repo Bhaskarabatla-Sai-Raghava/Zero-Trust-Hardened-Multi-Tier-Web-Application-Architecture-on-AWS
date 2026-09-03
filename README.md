@@ -11,7 +11,7 @@
 3) SSM is used instead of SSH since it is more secure as the account with the right Permissions and encrypted password only can enter the Database.
 4) HTTP is used instead of HTTPS due to domain and cost constraints but it is in future plans.
 5) NAT Gateway is used if our EC2 instances need to connect to the internet for patches and updates but not the vice-versa since the instances are kept isolated for security.
-## Components used
+ ## Components used
 -  VPC, subnets, route tables, IGW, NAT Gateway
 -  ALB (listener, target group)
 -  EC2 (Auto Scaling or manual, AMI, nginx user data script)
