@@ -10,7 +10,7 @@
 
 1) Multi AZ is used for RDS to keep it fault tolerant and highly available 
 2) Subnets are isolated so that the data transfer can take place securely like ALB is in the public subnet since it need to receive traffic from the Internet Gateway But the EC2's and RDS instance are in private subnets since they get traffic from specific sources like ALB and need to be protected from attackers. 
-3) SSM is used instead of SSH since it is more secure as the account with the right Permissions and encrypted password only can enter the Database. 
+3) AWS Systems Manager Session Manager was used for administrative access to EC2 instead of exposing SSH to the internet. Access requires appropriate IAM permissions and the instance to be managed by SSM. 
 4) HTTP is used instead of HTTPS due to domain and cost constraints but it is in future plans. 
 5) NAT Gateway is used if our EC2 instances need to connect to the internet for patches and updates but not the vice-versa since the instances are kept isolated for security. 
 
