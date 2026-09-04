@@ -61,7 +61,7 @@
 
 ## Cost Managment
 
-- This is a free tier AWS account with a $200 credit and all free tier options.
+- The environment was created for short-lived experimentation. Cost-sensitive resources were monitored and removed after validation. Temporary compute, networking, and database resources were cleaned up after testing.
 
 
 
